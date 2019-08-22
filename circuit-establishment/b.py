@@ -37,9 +37,7 @@ def modify(packet):
 
     aes_key = AESGCM(aes_key_text)
 
-
     decrypted_block = bytes(aes_key.decrypt(bytes(nonce), pkt.data[296:-596], ''))
-
 
     ip_c = decrypted_block[:16]
 
