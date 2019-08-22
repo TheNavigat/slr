@@ -1,0 +1,4 @@
+cryptography==2.3
+dpkt==1.9.2
+NetfilterQueue==0.8.1
+pycrypto==2.6.1
